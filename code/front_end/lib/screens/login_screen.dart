@@ -50,7 +50,7 @@ class _LoginScreenState extends State<LoginScreen> {
     if (emailOk && passwordOk) {
       // TODO (Navigation dev): go to the Dashboard screen.
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Welcome back, Alex!')),
+        const SnackBar(content: Text('Welcome back, Efren!')),
       );
     } else {
       setState(() => _loginFailed = true);
